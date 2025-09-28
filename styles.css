@@ -9,8 +9,8 @@ body {
   font-family: 'Barlow Semi Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 13px;
   line-height: 1.5;
-  background-color: #F8FAFC;
-  color: #1E293B;
+  background-color: hsl(214, 17%, 92%);
+  color: hsl(219, 29%, 14%);
   padding: 24px;
   min-height: 100vh;
   display: flex;
@@ -29,16 +29,16 @@ body {
 
 /* Individual testimonial card */
 .testimonial {
-  background: #FFFFFF;
+  background: hsl(0, 0%, 100%);
   border-radius: 8px;
   padding: 24px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0 2px 4px -1px hsla(0, 0%, 0%, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .testimonial:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px hsla(0, 0%, 0%, 0.1), 0 4px 6px -2px hsla(0, 0%, 0%, 0.05);
 }
 
 /* Testimonial header with avatar and author info */
@@ -53,7 +53,7 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
 }
 
 .testimonial__author {
@@ -91,8 +91,8 @@ body {
 
 /* Specific testimonial styling */
 .testimonial--daniel {
-  background-color: #7C3AED;
-  color: #FFFFFF;
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
   position: relative;
   overflow: hidden;
 }
@@ -116,45 +116,45 @@ body {
 }
 
 .testimonial--daniel .testimonial__avatar {
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: hsla(0, 0%, 100%, 0.5);
 }
 
 .testimonial--jonathan {
-  background-color: #48556A;
-  color: #FFFFFF;
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
 }
 
 .testimonial--jonathan .testimonial__avatar {
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: hsla(0, 0%, 100%, 0.5);
 }
 
 .testimonial--jeanette {
-  background-color: #FFFFFF;
-  color: #1E293B;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
 }
 
 .testimonial--jeanette .testimonial__name,
 .testimonial--jeanette .testimonial__quote {
-  color: #1E293B;
+  color: hsl(219, 29%, 14%);
 }
 
 .testimonial--patrick {
-  background-color: #19212E;
-  color: #FFFFFF;
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
 }
 
 .testimonial--patrick .testimonial__avatar {
-  border-color: #7C3AED;
+  border-color: hsl(263, 55%, 52%);
 }
 
 .testimonial--kira {
-  background-color: #FFFFFF;
-  color: #1E293B;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
 }
 
 .testimonial--kira .testimonial__name,
 .testimonial--kira .testimonial__quote {
-  color: #1E293B;
+  color: hsl(219, 29%, 14%);
 }
 
 /* Mobile styles (default) */
